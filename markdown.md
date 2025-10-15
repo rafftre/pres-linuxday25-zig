@@ -1,26 +1,52 @@
-# Markdown Slides
+# Titolo
 
-## Slide 1
+## Sottotitolo
 
-Slide 1
+Slide del titolo
 
-Note: This will only appear in the speaker notes window.
-
----
-
-## Slide 2
-
-Move down
-
---
-
-## Slide 2.1
-
-Move up
+Note: Chi sei e di cosa parlerai
 
 ---
 
-## Slide 3
+## Introduzione
+
+Introduzione
+
+Note: 1-2 slide. Presenta l'argomento principale. Cattura l'attenzione del pubblico.
+
+---
+
+## Corpo centrale
+
+Contenuto
+
+Note: 6-10 slide. Sviluppa i punti chiave. 1-2 slide per ogni punto fondamentale.
+
+
+
+## Corpo centrale - verticale
+
+Contenuto sottostante
+
+---
+
+## Conclusione
+
+Conclusione
+
+Note: Riassumi i messaggi principali.
+
+---
+
+## CTA/Domande
+
+Call to Action oppure Domande
+
+Note: Invita il pubblico a fare domande o a compiere un'azione.
+
+---
+
+## Esempio con codice
 
 ```js [1-2|3|4]
 let a = 1;
