@@ -1,38 +1,101 @@
-# Titolo
+# Zig
 
-## Sottotitolo
+## Divertirsi con la programmazione di sistema
 
-Slide del titolo
-
-Note: Chi sei e di cosa parlerai
+Raffaele Tretola
 
 ---
 
 ## Introduzione
 
-Introduzione
+TODO
+
+> Zig is a general-purpose programming language and toolchain for maintaining robust, optimal and reusable software
 
 Note: 1-2 slide. Presenta l'argomento principale. Cattura l'attenzione del pubblico.
 
 ---
 
-## Corpo centrale
+## Piccolo e semplice
 
-Contenuto
+Niente
+- allocazioni nascoste
+- flussi di controllo nascosti
+- pre-processore e macro
 
-Note: 6-10 slide. Sviluppa i punti chiave. 1-2 slide per ogni punto fondamentale.
+
+
+## Comptime
+
+Esecuzione del codice durante la compilazione
 
 
 
-## Corpo centrale - verticale
+## Funzionalità moderne
 
-Contenuto sottostante
+- Tipi opzionali
+- Gestione esplicita degli errori
+- Strutture dati e funzioni generiche
+
+
+
+## Strumenti integrati
+
+- Sistema di _build_
+- _Cross-compilation_
+- Gestione dei pacchetti
+- Test _framework_
+
+
+
+## Integrazione con C/C++
+
+- Compilatore C/C++ senza dipendenze
+- Compatibilità diretta con la ABI del C
+
+---
+
+## Open-Source
+
+- Community decentralizzata
+- "Benevolent Dictator For Now"
+- Zig Software Foundation
+
+
+
+## Dipendenze
+
+- Clang
+- glibc/musl
+- Git
+
+
+
+## Ecosistema
+
+- Bun
+- TigerBeetle
+- Zig Language Server
+- Ghostty
+
+---
+
+## Svantaggi
+
+- instabile (pre 1.0)
+- _learning curve_
+
+---
+
+## Zit = Zig + Git
+
+TODO & esempio interfaces?
 
 ---
 
 ## Conclusione
 
-Conclusione
+TODO
 
 Note: Riassumi i messaggi principali.
 
@@ -41,8 +104,6 @@ Note: Riassumi i messaggi principali.
 ## CTA/Domande
 
 Call to Action oppure Domande
-
-Note: Invita il pubblico a fare domande o a compiere un'azione.
 
 ---
 
