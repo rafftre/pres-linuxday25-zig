@@ -8,20 +8,22 @@ Raffaele Tretola
 
 ## Introduzione
 
-TODO
-
 > Zig is a general-purpose programming language and toolchain for maintaining robust, optimal and reusable software
 
-Note: 1-2 slide. Presenta l'argomento principale. Cattura l'attenzione del pubblico.
+
+
+## Perché
+
+- Permettere agli altri di compilare facilmente
+- Basta _makefiles_
 
 ---
 
 ## Piccolo e semplice
 
-Niente
-- allocazioni nascoste
-- flussi di controllo nascosti
-- pre-processore e macro
+- Nessuna allocazione nascosta
+- Niente flussi di controllo nascosti
+- No pre-processore e macro
 
 
 
@@ -44,7 +46,7 @@ Esecuzione del codice durante la compilazione
 - Sistema di _build_
 - _Cross-compilation_
 - Gestione dei pacchetti
-- Test _framework_
+- Test _framework_ integrato
 
 
 
@@ -78,18 +80,24 @@ Esecuzione del codice durante la compilazione
 - Zig Language Server
 - Ghostty
 
+Note: illustra Ghostty come un esempio di app platform-independent che usa un core scritto in Zig (libghostty, l'emulatore di terminale) con app native che imlementano solo funzioni di più alto livello
+
 ---
 
 ## Svantaggi
 
-- instabile (pre 1.0)
-- _learning curve_
+- Instabile (pre 1.0)
+- _Learning curve_
+
+Note: mancanza di interfacce?
 
 ---
 
 ## Zit = Zig + Git
 
-TODO & esempio interfaces?
+TODO
++ esempio interfaces?
++ esempio funzioni generiche comptime
 
 ---
 
@@ -97,21 +105,9 @@ TODO & esempio interfaces?
 
 TODO
 
-Note: Riassumi i messaggi principali.
-
 ---
 
 ## CTA/Domande
 
 Call to Action oppure Domande
 
----
-
-## Esempio con codice
-
-```js [1-2|3|4]
-let a = 1;
-let b = 2;
-let c = x => 1 + 2 + x;
-c(3);
-```
